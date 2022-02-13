@@ -25,7 +25,7 @@ class SieveOfEratosthenes{
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter x and y values for range: ");
+        System.out.print("Enter n: ");
         int n = sc.nextInt();
         sieveOfEratosthenes(n);
     }
