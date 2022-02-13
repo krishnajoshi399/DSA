@@ -10,7 +10,7 @@ for key = 12, print "12 is not present in array"
 
 import java.util.Scanner;
 
-class LinearSearching{
+class LinearSearch{
 
 /*
  Iterative solution
