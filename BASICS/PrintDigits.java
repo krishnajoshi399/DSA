@@ -6,6 +6,12 @@ for n = 6759, print following:
 5
 9
 
+reverse:
+9
+5
+7
+6
+
 */
 
 import java.util.Scanner;
@@ -24,12 +30,19 @@ class PrintDigits{
             d/=10;
         }
     }
-
+    public static void printDigitsReverse(int n){
+        int c = 0, bk = n;
+        while(n>0){
+            System.out.println(n%10);
+            n/=10;
+        }
+    }
     public static void main(String args[]) {
       Scanner sc = new Scanner(System.in);
       System.out.print("Enter n: ");
       int n = sc.nextInt();
       printDigits(n);
-      System.out.println();
+      System.out.println("\nreverse:");
+      printDigitsReverse(n);
     }
 }
