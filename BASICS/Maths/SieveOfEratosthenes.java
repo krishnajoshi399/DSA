@@ -3,7 +3,7 @@
 print prime no's till 'n' = 20
 2 3 5 7 11 13 17 19
 
-Time complexity of below program = O(n)
+Time complexity of below program = O(n*log(log(n)))
 Space complexity of below program = O(n)
 
 */

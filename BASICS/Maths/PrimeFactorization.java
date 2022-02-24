@@ -1,8 +1,6 @@
 /*
 
-for n = 23, print "23 is a prime no"
-
-for n = 15, print "15 is not a prime no
+Prime factors of 12 = 2*2*3
 
 */
 
